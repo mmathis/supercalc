@@ -2,18 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-	<parent>
-        <artifactId>dpmavenproject</artifactId>
-        <groupId>com.dp</groupId>
-        <version>11.10.000</version>
-    </parent>
-
-  <groupId>com.mpf</groupId>
-  <artifactId>transactions</artifactId>
-  <version>12.01.002-SNAPSHOT</version>
+  <groupId>supercalc</groupId>
+  <artifactId>supercalc</artifactId>
+  <version>0.01</version>
   <packaging>jar</packaging>
 
-  <name>transactions</name>
+  <name>supercalc</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -55,8 +49,6 @@
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
-	
-		
 		
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -65,12 +57,11 @@
 			<type>jar</type>
 			<scope>test</scope>
 		</dependency>
-		
-		
-  
+		  
     	<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
 			<type>jar</type>
 			<scope>test</scope>
 		</dependency>
