@@ -5,9 +5,10 @@ import java.io.IOException;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
-
-public class App 
-{
+/**
+ * Command-line interface for calculator 
+ */
+public class App {
 	@Autowired
     private Calculator calculator;
 
@@ -24,5 +25,4 @@ public class App
 
         System.exit(0);
     }
-
 }
