@@ -19,6 +19,7 @@ public class Calculator {
 			BufferedReader br = new BufferedReader(
                     new InputStreamReader(System.in));
 			
+			System.out.println("Welcome to supercalc");
 			System.out.println("enter command:");
 			String line = br.readLine();
 			
