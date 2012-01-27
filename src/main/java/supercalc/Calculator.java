@@ -24,7 +24,7 @@ public class Calculator {
 			String line = br.readLine();
 			
 			if (line.equals("e")) {
-				System.out.println("have a nice day...");
+				System.out.println("good bye, have a nice day...");
 				break;
 			} else {
 				String[] args = line.split(" ");
