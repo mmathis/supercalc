@@ -13,6 +13,9 @@ public class Calculator {
 	@Autowired
 	private Adder adder;
 	
+	@Autowired
+	private Subtractor sub;
+	
 	public void runLoop() throws IOException {
 		
 		while(true) {
@@ -35,6 +38,8 @@ public class Calculator {
 					
 					if (opCode.equals("+")) {
 						System.out.println("result: " + adder.add(op1, op2));
+					} else if (opCode.equals("-")) {
+						System.out.println("result: " + sub.subtract(op1, op2));
 					}
 				}
 			}
