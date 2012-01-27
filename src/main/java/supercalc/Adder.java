@@ -12,7 +12,10 @@ public class Adder {
 	
 	public Integer add(Integer op1, Integer op2) {
 		log.info("adding " + op1 + " and " + op2);
-		return op1 + op2; 
+		Integer result = op1 + op2;
+		
+		log.info("result: " + result);
+		return result;
 	}
 	
 	
