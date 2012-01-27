@@ -4,6 +4,9 @@ package supercalc;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
+/**
+ * Subtracts two numbers
+ */
 @Service
 public class Subtractor {
 
