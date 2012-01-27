@@ -4,8 +4,10 @@ package supercalc;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
+/**
+ * Adds two numbers
+ */
 @Service
-
 public class Adder {
 
 	private Logger log = Logger.getLogger(getClass());
