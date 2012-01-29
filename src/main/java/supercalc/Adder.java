@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 /**
- * Adds two numbers
+ * Adds two numbers of type integer
  */
 @Service
 public class Adder {
